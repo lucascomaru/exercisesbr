@@ -1,4 +1,4 @@
-"Escreva um programa que converta uma temperatura digitada em graus °C para °F "
+"Escreva um programa que converta uma temperatura digitada em graus °C para °F."
 
 c = float(input('Informe a temperatura  °C: '))
 f = ((9 * c) /5) + 32
