@@ -1,4 +1,5 @@
-"Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um triângulo retângulo, calcule e mostre sua hipotenusa."
+"""Faça um programa que leia o comprimento do cateto oposto
+e do cateto adjacente de um triângulo retângulo, calcule e mostre sua hipotenusa."""
 
 co = float(input('Comprimento do cateto oposto: '))
 ca = float(input('Comprimento do cateto adjacente: '))

@@ -1,4 +1,5 @@
-"Um professor quer sortear um dos seus alunos para apagar o quadro.Faça um programa que ajude ele,lendo o nome deles e escrevendo o nome do escolhido."
+"""Um professor quer sortear um dos seus alunos para apagar o quadro
+.Faça um programa que ajude ele,lendo o nome deles e escrevendo o nome do escolhido."""""
 
 import random
 n1 = str(input('Primeiro aluno :'))
