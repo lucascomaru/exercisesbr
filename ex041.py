@@ -10,4 +10,15 @@ from datetime import date
 n = int(input('Ano de nascimento: '))
 a = date.today().year
 i = a - n
-print(f'O atleta tem {n} anos')
+print(f'O atleta tem {i} anos')
+if i <= 9:
+    print('Você é da categoria MIRIM! ')
+elif i >= 9 and i <= 14:
+    print('Você é da categoria INFANTIL! ')
+elif i >= 14 and i <=19:
+    print('Vocé é da categoria JUNIOR! ')
+elif i >= 19 and i <= 25:
+    print('Você é da categoria SENIOR! ')
+else:
+    print('Você é da categoria MASTER! ')
+
