@@ -8,16 +8,34 @@ print('''Suas opções:
 [ 2 ] PAPEL
 [ 3 ] TESOURA''')
 jogador = int(input('Qual é a sua jogada?'))
-print(f'Computador jogou {itens[comp]}' )
-print(f'Jogador jogou {itens[comp]}')
-if comp == jogador:
-    print('Empate')
+print(f'Computador jogou {itens[jogador]}')
+print(f'Jogador jogou {itens[jogador]}')
+if comp == 0:
+    if jogador == 0:
+        print('EMPATE')
 elif jogador == 1:
-    print('JOGADOR VENCEU! ')
+    print('JOGADOR VENCEU')
 elif jogador == 2:
-    print('COMPUTADOR VENCEU! ')
+    print('COMPUTADOR VENCEU')
+else:
+    print('Jogada inválida')
+if comp == 1:
+   if jogador == 0:
+       print('COMPUTADOR VENCEU')
+elif jogador == 1:
+    print('EMPATE')
+elif jogador == 2:
+    print('JOGADOR VENCEU')
 else:
     print('JOGADA INVÁLIDA')
-
+if comp == 2:
+    if jogador == 0:
+        print('JOGADOR VENCEU')
+elif jogador == 1:
+    print('COMPUTADOR VENCE')
+elif jogador == 2:
+    print('EMPATE')
+else:
+    print('JOGADA INVÁLIDA')
 
 
