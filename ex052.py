@@ -7,7 +7,7 @@ for i in range(1, num + 1):
     if num % i == 0:
         contador += 1
 
-print("O número {} foi divisível {} vezes!".format(num, contador))
+print(f"O número {num} foi divisível {contador} vezes!")
 
 if contador == 2:
     print("O número é primo")
