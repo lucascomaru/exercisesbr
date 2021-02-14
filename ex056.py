@@ -8,7 +8,7 @@ maior = 0
 m21 = 0
 maisvelho = 0
 for c in range(1, 5):
-    print('------{}ª PESSOA ------'.format(c))
+    print(f'------{c}ª PESSOA ------')
     nome = str(input('Nome: ')).strip().upper()
     idade = int(input('Idade: '))
     sexo = str(input('Sexo: [M]/[F]: ')).strip().upper()
@@ -25,6 +25,6 @@ for c in range(1, 5):
     elif sexo == 'F':
         if idade < 21:
             m21 += 1
-print('A média de idade é {} anos,\n'
-      'O nome do homem mais velho é {}\n'
-      'Ao todo são {} mulheres com menos de 21 anos'.format(media, maisvelho, m21))
+print(f'A média de idade é {media} anos,\n'
+      'O nome do homem mais velho é {maisvelho}\n'
+      'Ao todo são {m21} mulheres com menos de 21 anos')
