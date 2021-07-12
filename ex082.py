@@ -23,3 +23,4 @@ for n in range(0, len(lista)):
 print(f'A lista de pares é {pares}')
 print(f'A lista de impares  é {impares}')
 
+
